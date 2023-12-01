@@ -6,6 +6,7 @@
             <tr>
                 <th scope="col">Name</th>
                 <th scope="col">Date</th>
+                <th scope="col">Type</th>
                 <th scope="col">Description</th>
                 <th scope="col">Link</th>
                 <th scope="col">Action</th>
@@ -16,6 +17,7 @@
                 <tr>
                     <td>{{ $project->name }}</td>
                     <td>{{ $project->date }}</td>
+                    <td>{{ $project->type->name }}</td>
                     <td>{!! $project->description !!}</td>
                     <td><a href="{{ $project->link }}">{{ $project->link }}</a></td>
                     <td>
