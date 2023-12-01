@@ -27,5 +27,10 @@
                 <i class="fa-solid fa-microchip me-3 fs-4"></i>Tecnologies</a>
         </li>
 
+        <li class="nav-item @class(['active' => Route::is('admin.tecnologies.index')])">
+            <a href="{{ route('admin.types-projects') }}">
+                <i class="fa-solid fa-microchip me-3 fs-4"></i>Elenco per tipologia</a>
+        </li>
+
     </ul>
 </aside>

@@ -16,7 +16,7 @@
             <tr>
                 <td>{{ $project->name }}</td>
                 <td>{{ $project->date }}</td>
-                <td>{{ $project->type->name }}</td>
+                <td>{{ $project->type?->name ?? '-' }}</td>
                 <td>{!! $project->description !!}</td>
                 <td>
                     <a href="{{ $project->link }}">{{ $project->link }}</a>
