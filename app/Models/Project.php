@@ -20,6 +20,7 @@ class Project extends Model
         'name',
         'slug',
         'date',
+        'type',
         'description',
         'link',
         'isComplete'
